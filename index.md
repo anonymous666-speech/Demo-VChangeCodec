@@ -50,8 +50,9 @@ Original@9.5kbps refers to our original voice mode.
 
 
 ##     Demo of female
-
 ###    Mandarin 
+
+
 
 |Ref | Original@9.5kbps | DAC@8kbps  | Encodec@12kbps   | SpeechTokenizer| 
 |:---: | :---: | :---: | :---: | :---: | 
