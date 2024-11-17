@@ -22,12 +22,36 @@ Original@9.5kbps refers to our original voice mode.
  We supplemented the subjective evaluation results of DAC@8kbps, Encodec@12kbps, and SpeechTokenizer. We selected 2 Mandarin corpora (one female and one male) as demo. 
  Note that the DAC and SpeechTokenizer systems do not have streaming structure and cannot meet real-time requirements.
 
+##     Demo of female
+
+
+###    English 
+
+ |Ref |Opus@6kbps| Lyra2@6kbps | EVS@7.2kbps | Opus@8kbps | VChangeCodec@9.5kbps| Lyra2@9.2kbps | EVS@9.6kbps | Opus@10kbps | Opus@16kbps|
+ |:--- |:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+ |<audio src="demo_orig/Eng/Female/Female_01.wav" controls preload></audio> | <audio src="demo_orig/Eng/Female/Female_02.wav" controls preload></audio> |<audio src="demo_orig/Eng/Female/Female_03.wav" controls preload></audio> | <audio src="demo_orig/Eng/Female/Female_04.wav" controls preload></audio> | <audio src="demo_orig/Eng/Female/Female_05.wav" controls preload></audio> | <audio src="demo_orig/Eng/Female/Female_06.wav" controls preload></audio> | <audio src="demo_orig/Eng/Female/Female_07.wav" controls preload></audio> | <audio src="demo_orig/Eng/Female/Female_08.wav" controls preload></audio> | <audio src="demo_orig/Eng/Female/Female_09.wav" controls preload></audio> | <audio src="demo_orig/Eng/Female/Female_10.wav" controls preload></audio> |
+ |--- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+
+##     Demo of male
+
+
+###    English 
+
+ |Ref |Opus@6kbps| Lyra2@6kbps | EVS@7.2kbps | Opus@8kbps | VChangeCodec@9.5kbps| Lyra2@9.2kbps | EVS@9.6kbps | Opus@10kbps | Opus@16kbps|
+ |:--- |:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+ |<audio src="demo_orig/Eng/Male/Male_01.wav" controls preload></audio> | <audio src="demo_orig/Eng/Male/Male_02.wav" controls preload></audio> |<audio src="demo_orig/Eng/Male/Male_03.wav" controls preload></audio> | <audio src="demo_orig/Eng/Male/Male_04.wav" controls preload></audio> | <audio src="demo_orig/Eng/Male/Male_05.wav" controls preload></audio> | <audio src="demo_orig/Eng/Male/Male_06.wav" controls preload></audio> | <audio src="demo_orig/Eng/Male/Male_07.wav" controls preload></audio> | <audio src="demo_orig/Eng/Male/Male_08.wav" controls preload></audio> | <audio src="demo_orig/Eng/Male/Male_09.wav" controls preload></audio> | <audio src="demo_orig/Eng/Male/Male_10.wav" controls preload></audio> |
+ |--- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
 
 
 
 
 ##     Demo of female
 
+###    Mandarin 
 |Ref | Original@9.5kbps | DAC@8kbps  | Encodec@12kbps   | SpeechTokenizer| 
 |:---: | :---: | :---: | :---: | :---: | 
  |<audio src="demo_orig/female/Ref_p501/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/VChangeCodec/p501_CN_F1_68.wav" controls preload></audio> |<audio src="demo_orig/female/DAC/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/Encodec/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/SpeechTokenizer/p501_CN_F1_68.wav" controls preload></audio> |
@@ -35,6 +59,7 @@ Original@9.5kbps refers to our original voice mode.
 
 
 ##      Demo of male
+###     Mandarin 
 
 |Ref | Original@9.5kbps | DAC@8kbps  | Encodec@12kbps   | SpeechTokenizer| 
 |:---: | :---: | :---: | :---: | :---: | 
