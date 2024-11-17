@@ -52,6 +52,7 @@ Original@9.5kbps refers to our original voice mode.
 ##     Demo of female
 
 ###    Mandarin 
+
 |Ref | Original@9.5kbps | DAC@8kbps  | Encodec@12kbps   | SpeechTokenizer| 
 |:---: | :---: | :---: | :---: | :---: | 
  |<audio src="demo_orig/female/Ref_p501/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/VChangeCodec/p501_CN_F1_68.wav" controls preload></audio> |<audio src="demo_orig/female/DAC/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/Encodec/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/SpeechTokenizer/p501_CN_F1_68.wav" controls preload></audio> |
@@ -65,6 +66,8 @@ Original@9.5kbps refers to our original voice mode.
 |:---: | :---: | :---: | :---: | :---: | 
  |<audio src="demo_orig/male/Ref_p501/p501_CN_M1_70.wav" controls preload></audio> | <audio src="demo_orig/male/VChangeCodec/p501_CN_M1_70.wav" controls preload></audio> |<audio src="demo_orig/male/DAC/p501_CN_M1_70.wav" controls preload></audio> | <audio src="demo_orig/male/Encodec/p501_CN_M1_70.wav" controls preload></audio> | <audio src="demo_orig/male/SpeechTokenizer/p501_CN_M1_70.wav" controls preload></audio> |
  |--- | --- | --- | --- | --- |
+
+
 
 
 
