@@ -18,9 +18,9 @@ comments
 -->
 # Demo of original voice mode
 
-Original@9.5kbps refers to our original voice mode.
- We supplemented the subjective evaluation results of DAC@8kbps, Encodec@12kbps, and SpeechTokenizer. We selected 2 Mandarin corpora (one female and one male) as demo. 
- Note that the DAC and SpeechTokenizer systems do not have streaming structure and cannot meet real-time requirements.
+VChangeCodec@9.5kbps refers to our original voice mode.
+We supplemented the subjective evaluation results of DAC@8kbps, Encodec@12kbps, and SpeechTokenizer. 
+We present subjective performance comparisons of our original voice model with other codecs for speech compression (including signal processing-based and neural-based).
 
 ##     Demo of female
 
