@@ -18,9 +18,7 @@ comments
 -->
 # Demo of original voice mode
 
-VChangeCodec@9.5kbps refers to our original voice mode.
-We supplemented the subjective evaluation results of DAC@8kbps, Encodec@12kbps, and SpeechTokenizer. 
-We present subjective performance comparisons of our original voice model with other codecs for speech compression (including signal processing-based and neural-based).
+"Ref" denotes the reference speech. We have provided samples compressed by various codecs, including both signal processing-based and neural-based methods. In these comparisons, "VChangeCodec@9.5kbps" specifically refers to our original voice model.
 
 ##     Demo of female
 
@@ -54,7 +52,7 @@ We present subjective performance comparisons of our original voice model with o
 
 
 
-|Ref | Original@9.5kbps | DAC@8kbps  | Encodec@12kbps   | SpeechTokenizer| 
+|Ref | VChangeCodec@9.5kbps | DAC@8kbps  | Encodec@12kbps   | SpeechTokenizer| 
 |:---: | :---: | :---: | :---: | :---: | 
  |<audio src="demo_orig/female/Ref_p501/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/VChangeCodec/p501_CN_F1_68.wav" controls preload></audio> |<audio src="demo_orig/female/DAC/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/Encodec/p501_CN_F1_68.wav" controls preload></audio> | <audio src="demo_orig/female/SpeechTokenizer/p501_CN_F1_68.wav" controls preload></audio> |
  |--- | --- | --- | --- | --- |
@@ -63,7 +61,7 @@ We present subjective performance comparisons of our original voice model with o
 ##      Demo of male
 ###     Mandarin 
 
-|Ref | Original@9.5kbps | DAC@8kbps  | Encodec@12kbps   | SpeechTokenizer| 
+|Ref | VChangeCodec@9.5kbps | DAC@8kbps  | Encodec@12kbps   | SpeechTokenizer| 
 |:---: | :---: | :---: | :---: | :---: | 
  |<audio src="demo_orig/male/Ref_p501/p501_CN_M1_70.wav" controls preload></audio> | <audio src="demo_orig/male/VChangeCodec/p501_CN_M1_70.wav" controls preload></audio> |<audio src="demo_orig/male/DAC/p501_CN_M1_70.wav" controls preload></audio> | <audio src="demo_orig/male/Encodec/p501_CN_M1_70.wav" controls preload></audio> | <audio src="demo_orig/male/SpeechTokenizer/p501_CN_M1_70.wav" controls preload></audio> |
  |--- | --- | --- | --- | --- |
