@@ -1,15 +1,18 @@
-# <center> VChangeCodec: A High-efficiency Neural Speech Codec with Built-in Voice Changer for Real-time Communication </center>
+# <center> High-Fidelity Ultra Low-Complexity Neural Speech Codec for Customized Real-Time Communication </center>
 
 anonymous authors
 
 
 ## Abstract
-Neural speech codecs enable high-quality real-time communication (RTC) at low bit rates, making them efficient for bandwidth-limited environments. 
-However, customizing the timbre of transmitted voices still relies on separate voice conversion (VC) systems, resulting in a cascaded pipeline with high latency.
-In this paper, we present _VChangeCodec_, a real-time neural speech codec with native VC capacity and switchable voice modes. 
-Specifically, we design a fully causal convolutional network and use the scalar quantization codebook to acquire compact tokens. For voice change mode, leveraging the target speaker's embedding, we incorporate a lightweight causal projection network that can be optionally activated within the encoding module to adapt timbre at the token level. 
+Neural speech codecs achieve high-quality real-time communication (RTC) at low bit rates, making them efficient for bandwidth-constrained environments. 
+However, such improvements
+usually come at the cost of increased model complexity and these codecs lack customized timbre capacity. Customizing or modifying the timbre of transmitted voices still relies on separate voice conversion (VC) systems, resulting in a cascaded pipeline with high latency.
+In this paper, we present _VChangeCodec_, a high-fidelity and low-complexity neural speech codec integrated native VC capacity for customized RTC. 
+This framework seamlessly switches between the original voice mode and customized voice change mode. 
+Specifically, we design a fully causal convolutional network and use the scalar quantization codebook to acquire compact tokens. 
+For voice change mode, leveraging the target speaker's embedding, we incorporate a lightweight causal projection network that can be optionally activated within the encoding module to adapt timbre at the token level. 
 These adapted tokens are quantized and transmitted to the decoding module to generate the converted speech of the target speaker.
-Experiments demonstrate that our VChangeCodec with fewer than 3M parameters performs competitively in speech reconstruction and excels in timbre adaptation capabilities with an ultra-low latency of 40 ms, making it ideal for RTC scenarios such as social media and chatting. 
+Our subjective and objective evaluations demonstrate that our VChangeCodec significantly reduces the number of parameters by $\textbf{96.3}\%$ while achieving competitive performance compared with the state-of-the-art (SOTA) model DAC and excels in VC capabilities with an ultra-low latency of 40 ms, making it ideal for customized RTC scenarios such as social media and chatting, tailored to specific operator requirements.
 
 
 # Demo of original voice mode
