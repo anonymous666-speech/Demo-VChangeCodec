@@ -14,6 +14,19 @@ For voice change mode, leveraging the target speaker's embedding, we incorporate
 These adapted tokens are quantized and transmitted to the decoding module to generate the converted speech of the target speaker.
 Our subjective and objective evaluations demonstrate that our VChangeCodec significantly reduces the number of parameters by **96.3**% while achieving competitive performance compared with the state-of-the-art (SOTA) model DAC and excels in VC capabilities with an ultra-low latency of 40 ms, making it ideal for customized RTC scenarios such as social media and chatting, tailored to specific operator requirements.
 
+# Demo for customized real-time communication
+
+We demonstrate real-time voice call functionality on mobile devices, where users can keep communication in original voice mode and seamlessly switch to a voice changer mode (a pre-defined timbre) for customized voice transmission.
+
+Users can switch the voice change mode at any time according to their preferences on the sender side and generate adapted timbre tokens. The new token is fed to the decoding networks at the receiver side to reconstruct the altered speech without any compatibility changes on the decoding side. 
+VC is a built-in part of the voice communication module, with internal configurations managed by operators, ensuring users cannot arbitrarily modify settings and thus minimizing privacy risks.
+
+<video src="demo_video/video_demo.mp4" controls width="640" height="360">
+</video>
+
+<video src="demo_video/video_demo2.mp4" controls width="640" height="360">
+</video>
+
 
 # Demo of original voice mode
 
