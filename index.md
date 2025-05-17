@@ -12,7 +12,7 @@ This framework seamlessly switches between the original voice mode and customize
 Specifically, we design a fully causal convolutional network and use the scalar quantization codebook to acquire compact tokens. 
 For voice change mode, leveraging the target speaker's embedding, we incorporate a lightweight causal projection network that can be optionally activated within the encoding module to adapt timbre at the token level. 
 These adapted tokens are quantized and transmitted to the decoding module to generate the converted speech of the target speaker.
-Our subjective and objective evaluations demonstrate that our VChangeCodec significantly reduces the number of parameters by $\textbf{96.3}\%$ while achieving competitive performance compared with the state-of-the-art (SOTA) model DAC and excels in VC capabilities with an ultra-low latency of 40 ms, making it ideal for customized RTC scenarios such as social media and chatting, tailored to specific operator requirements.
+Our subjective and objective evaluations demonstrate that our VChangeCodec significantly reduces the number of parameters by **96.3**% while achieving competitive performance compared with the state-of-the-art (SOTA) model DAC and excels in VC capabilities with an ultra-low latency of 40 ms, making it ideal for customized RTC scenarios such as social media and chatting, tailored to specific operator requirements.
 
 
 # Demo of original voice mode
